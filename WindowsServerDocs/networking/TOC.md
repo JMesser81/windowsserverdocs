@@ -67,6 +67,9 @@
 ####### [Configure firewall rules for non-domain members to allow BranchCache traffic](branchcache/deploy/Configure-Firewall-Rules-for-Non-Domain-Members-to-Allow-BranchCache-Traffic.md)
 ###### [Verify client computer settings](branchcache/deploy/verify-Client-computer-Settings.md)
 
+## [Container networking](Containers/Container-networking-overview.md)
+### [Host Compute Networking Service](containers/host-compute-networking-service.md)
+
 ## [DirectAccess](../remote/remote-access/da-stub.md) 
 
 ## [Domain Name System (DNS)](dns/dns-top.md)
@@ -238,7 +241,6 @@
 ###### [RAS Gateway high availability](sdn/technologies/network-function-virtualization/RAS-Gateway-High-Availability.md)
 ##### [Software Load Balancing (SLB) for SDN](sdn/technologies/network-function-virtualization/software-load-balancing-for-sdn.md)
 #### [Switch Embedded Teaming (SET) for SDN](sdn/technologies/Set-for-Sdn.md)
-#### [Container networking](sdn/technologies/Containers/Container-networking-overview.md)
 
 ### [Plan an SDN Infrastructure](sdn/plan/Plan-a-Software-Defined-Network-Infrastructure.md)
 #### [Installation and preparation requirements for deploying Network Controller](sdn/plan/Installation-and-Preparation-Requirements-for-Deploying-Network-Controller.md)
