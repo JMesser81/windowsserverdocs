@@ -16,3 +16,5 @@ A host compute network load balancer represents a network policy to load balance
 ## API References
 
 For a list of the HCN functions, please see [References](host-networking-service-api.md)
+
+For a reference to HCN JSON document schema, please see [HCN JSON Schema](hcn-json-schema.md)
