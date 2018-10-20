@@ -1,13 +1,13 @@
-# HcnModifyNetwork
+# HcnOpenEndpoint
 
 ## Syntax
-`HRESULT result = HcnModifyNetwork(Id, Settings, ErrorRecord)`
+`HRESULT result = HcnOpenEndpoint(Id, Endpoint, ErrorRecord)`
 
 ### Parameters
 |Parameter     |Description|
 |---|---|---|---|---|---|---|---| 
-|`Network`| **[In]** handle to the network (received from call to HcnOpenNetwork)|
-|`Settings`| **[Out]** JSON document specifying the new settings of the Network|
+|`Id`| **[In]** the Unique Id (GUID) string of the existing Endpoint|
+|`Endpoint`| **[Out]** Receives a handle to the Endpoint|
 |`ErrorRecord`| **[Out] [Optional]** Receives a JSON document on failure with extended result information|
 |    |    | 
 
@@ -21,3 +21,5 @@
 |     |     |
 
 ## Remarks
+
+The caller must release any buffers created using CoTaskMemFree

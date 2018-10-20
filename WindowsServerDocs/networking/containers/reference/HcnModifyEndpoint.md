@@ -1,13 +1,13 @@
-# HcnModifyNetwork
+# HcnModifyEndpoint
 
 ## Syntax
-`HRESULT result = HcnModifyNetwork(Id, Settings, ErrorRecord)`
+`HRESULT result = HcnModifyEndpoint(Endpoint, Settings, ErrorRecord)`
 
 ### Parameters
 |Parameter     |Description|
 |---|---|---|---|---|---|---|---| 
-|`Network`| **[In]** handle to the network (received from call to HcnOpenNetwork)|
-|`Settings`| **[Out]** JSON document specifying the new settings of the Network|
+|`Endpoint`| **[In]** handle to the Endpoint (received from call to HcnOpenEndpoint)|
+|`Settings`| **[Out]** JSON document specifying the new settings of the Endpoint|
 |`ErrorRecord`| **[Out] [Optional]** Receives a JSON document on failure with extended result information|
 |    |    | 
 
