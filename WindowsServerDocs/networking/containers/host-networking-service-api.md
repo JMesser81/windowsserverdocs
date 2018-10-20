@@ -15,7 +15,7 @@ The following section contains the definitions of the Host Compute Networking Se
 |[HcnCloseNetwork](reference/HcnCloseNetwork.md)|Close an open handle of a host compute network|
 |[HcnEnumerateEndpoints](reference/HcnEnumerateEndpoints.md)|Enumerate all endpoints of a host compute network|
 |[HcnCreateEndpoint](reference/HcnCreateEndpoint.md)|Create a host compute network endpoint|
-|[HcnOpenEndpoint](reference/HcnOpenEndpoint.md)Open a handle to an existing endpoint|
+|[HcnOpenEndpoint](reference/HcnOpenEndpoint.md)|Open a handle to an existing endpoint|
 |[HcnModifyEndpoint](reference/HcnModifyEndpoint.md)|Modify a host compute network endpoint|
 |[HcnQueryEndpointProperties](reference/HcnQueryEndpointProperties.md)|Query properties of a host compute network endpoint|
 |[HcnDeleteEndpoint](reference/HcnDeleteEndpoint.md)|Delete a host compute network endpoint|
